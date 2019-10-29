@@ -1,0 +1,319 @@
+{
+  "id": "3223a8a2-61ff-48ac-b3da-40fc1d9b7ea8",
+  "version": "2.0",
+  "name": "SC",
+  "url": "http://scywc.chinapopin.com:8161",
+  "tests": [{
+    "id": "cc69424d-c13e-4b61-86a2-4de2ef8f570e",
+    "name": "test1",
+    "commands": [{
+      "id": "26cee209-a7ff-4341-956e-a88fc231e485",
+      "comment": "",
+      "command": "open",
+      "target": "/ywc/indexview",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04628a13-2f51-416c-b215-b795167da69c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97b34146-79e0-4eae-bf24-94dda9ba4fc4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=用户登录",
+      "targets": [
+        ["linkText=用户登录", "linkText"],
+        ["css=#userdl > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'用户登录')]", "xpath:link"],
+        ["xpath=//a[@onclick='toLogin();']", "xpath:attributes"],
+        ["xpath=//dd[@id='userdl']/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, \"javascript:void('0');\")])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'用户登录')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b44c2049-aae5-40a3-b693-75a65c0fa001",
+      "comment": "",
+      "command": "click",
+      "target": "id=busername",
+      "targets": [
+        ["id=busername", "id"],
+        ["name=busername", "name"],
+        ["css=#busername", "css:finder"],
+        ["xpath=//input[@id='busername']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a17fae2a-35df-44ed-9359-f36fd50be736",
+      "comment": "",
+      "command": "type",
+      "target": "id=busername",
+      "targets": [
+        ["id=busername", "id"],
+        ["name=busername", "name"],
+        ["css=#busername", "css:finder"],
+        ["xpath=//input[@id='busername']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/ul/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": "13698119027"
+    }, {
+      "id": "9546e231-c928-410b-9f35-466e02a4f300",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2)",
+      "targets": [
+        ["css=li:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='loginForm']/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'密码')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "81817307-21e0-4fbe-8751-a305d919afc0",
+      "comment": "",
+      "command": "click",
+      "target": "id=userpwd",
+      "targets": [
+        ["id=userpwd", "id"],
+        ["name=userpwd", "name"],
+        ["css=#userpwd", "css:finder"],
+        ["xpath=//input[@id='userpwd']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb6551bf-2bf8-4162-809d-02add29f5026",
+      "comment": "",
+      "command": "type",
+      "target": "id=userpwd",
+      "targets": [
+        ["id=userpwd", "id"],
+        ["name=userpwd", "name"],
+        ["css=#userpwd", "css:finder"],
+        ["xpath=//input[@id='userpwd']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "1a531eab-9404-4c5c-9956-1b34fbfd15b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > .width247",
+      "targets": [
+        ["css=li:nth-child(3) > .width247", "css:finder"],
+        ["xpath=//input[@value='登录']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed2f8de2-902d-46b5-b938-7ad6e8041a7f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anniu",
+      "targets": [
+        ["css=.anniu", "css:finder"],
+        ["xpath=//input[@value='确定']", "xpath:attributes"],
+        ["xpath=//div[@id='systemczmodal']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c26aae6d-ae5f-4ef3-83de-c14cb8ad57f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=userpwd",
+      "targets": [
+        ["id=userpwd", "id"],
+        ["name=userpwd", "name"],
+        ["css=#userpwd", "css:finder"],
+        ["xpath=//input[@id='userpwd']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f41659e-408b-4db4-958c-35d5ffed3261",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=userpwd",
+      "targets": [
+        ["id=userpwd", "id"],
+        ["name=userpwd", "name"],
+        ["css=#userpwd", "css:finder"],
+        ["xpath=//input[@id='userpwd']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9764736-5eb7-41f7-95ce-b40c2e2df502",
+      "comment": "",
+      "command": "type",
+      "target": "id=userpwd",
+      "targets": [
+        ["id=userpwd", "id"],
+        ["name=userpwd", "name"],
+        ["css=#userpwd", "css:finder"],
+        ["xpath=//input[@id='userpwd']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/ul/li[2]/input", "xpath:idRelative"],
+        ["xpath=//li[2]/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "86fc6a8a-1352-4bae-ba42-a716cf25b0d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > .width247",
+      "targets": [
+        ["css=li:nth-child(3) > .width247", "css:finder"],
+        ["xpath=//input[@value='登录']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83f5269a-8cab-49b8-91fa-e9e394b19795",
+      "comment": "",
+      "command": "click",
+      "target": "id=wycjtab",
+      "targets": [
+        ["id=wycjtab", "id"],
+        ["linkText=我要采集", "linkText"],
+        ["css=#wycjtab", "css:finder"],
+        ["xpath=//a[contains(text(),'我要采集')]", "xpath:link"],
+        ["xpath=//a[@id='wycjtab']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[5]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'我要采集')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f38992a-d1de-4c98-94f5-778fec621d8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) img",
+      "targets": [
+        ["css=li:nth-child(2) img", "css:finder"],
+        ["xpath=//img[contains(@src,'http://scywc.chinapopin.com:8161/ywc/common/system/images/cjpzpic/cjpzpic17.png?v=1.1')]", "xpath:img"],
+        ["xpath=//div[@id='fwxxDiv']/ul/li[2]/ol/img", "xpath:idRelative"],
+        ["xpath=//li[2]/ol/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6adcbfcf-5f35-4eb5-b959-11b71621d380",
+      "comment": "",
+      "command": "click",
+      "target": "id=sjrxm",
+      "targets": [
+        ["id=sjrxm", "id"],
+        ["name=sjrxm", "name"],
+        ["css=#sjrxm", "css:finder"],
+        ["xpath=//input[@id='sjrxm']", "xpath:attributes"],
+        ["xpath=//div[@id='fwpzxxDiv']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da2cae3e-ef44-4ce8-ac0a-de63b6dccfe8",
+      "comment": "",
+      "command": "click",
+      "target": "id=sjrxm",
+      "targets": [
+        ["id=sjrxm", "id"],
+        ["name=sjrxm", "name"],
+        ["css=#sjrxm", "css:finder"],
+        ["xpath=//input[@id='sjrxm']", "xpath:attributes"],
+        ["xpath=//div[@id='fwpzxxDiv']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd626ab6-6a66-4fdb-9257-7ffccdfb0084",
+      "comment": "",
+      "command": "type",
+      "target": "id=sjrxm",
+      "targets": [
+        ["id=sjrxm", "id"],
+        ["name=sjrxm", "name"],
+        ["css=#sjrxm", "css:finder"],
+        ["xpath=//input[@id='sjrxm']", "xpath:attributes"],
+        ["xpath=//div[@id='fwpzxxDiv']/ul/li[3]/input", "xpath:idRelative"],
+        ["xpath=//li[3]/input", "xpath:position"]
+      ],
+      "value": "蒋光菊"
+    }, {
+      "id": "39bcca74-67b4-4af2-813a-208d42ffcf0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=sjrdz",
+      "targets": [
+        ["id=sjrdz", "id"],
+        ["name=sjrdz", "name"],
+        ["css=#sjrdz", "css:finder"],
+        ["xpath=//textarea[@id='sjrdz']", "xpath:attributes"],
+        ["xpath=//div[@id='fwpzxxDiv']/ul/li[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "四川省达州市达川区桥湾镇"
+    }, {
+      "id": "10c2196a-fdb7-4805-acde-f0af6e56b7af",
+      "comment": "",
+      "command": "type",
+      "target": "id=sjrlxdh",
+      "targets": [
+        ["id=sjrlxdh", "id"],
+        ["name=sjrlxdh", "name"],
+        ["css=#sjrlxdh", "css:finder"],
+        ["xpath=//input[@id='sjrlxdh']", "xpath:attributes"],
+        ["xpath=//div[@id='fwpzxxDiv']/ul/li[5]/input", "xpath:idRelative"],
+        ["xpath=//li[5]/input", "xpath:position"]
+      ],
+      "value": "17711255923"
+    }, {
+      "id": "454fad02-17cc-457d-afc3-933751c2c4e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tijiao2",
+      "targets": [
+        ["css=.tijiao2", "css:finder"],
+        ["xpath=//input[@value='提交']", "xpath:attributes"],
+        ["xpath=//div[@id='fwpzxxDiv']/ul/li[13]/input", "xpath:idRelative"],
+        ["xpath=//li[13]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e213386-748d-486b-86af-9bba6aac0dc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.anniu:nth-child(3)",
+      "targets": [
+        ["css=.anniu:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='确定']", "xpath:attributes"],
+        ["xpath=//div[@id='systemczmodal']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3ac11e25-e420-42b3-9b32-103bf1c1ea25",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cc69424d-c13e-4b61-86a2-4de2ef8f570e"]
+  }],
+  "urls": ["http://scywc.chinapopin.com:8161/"],
+  "plugins": []
+}
